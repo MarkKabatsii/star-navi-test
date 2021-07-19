@@ -1,0 +1,12 @@
+.App {
+  box-sizing: border-box;
+}
+
+.App__container {
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

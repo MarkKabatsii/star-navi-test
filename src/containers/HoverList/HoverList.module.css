@@ -1,0 +1,12 @@
+.HoverList {
+    margin: 0 0 0 50px;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HoverList__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}

@@ -1,0 +1,12 @@
+.TableItems {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 65px;
+    height: 65px;
+    min-width: 65px;
+    max-height: 65px;
+}
+
+.TableItems__painted {
+    background: rgb(0, 168, 248);
+}

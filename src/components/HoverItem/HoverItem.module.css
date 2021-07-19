@@ -1,0 +1,9 @@
+.HoverItem {
+    background: rgb(253, 249, 226);
+    color: rgb(155, 128, 75);
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 16px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

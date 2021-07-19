@@ -1,0 +1,40 @@
+.ModeForm select {
+    width: 220px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #121212;
+    border: 1px solid #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.ModeForm__btn {
+    margin-left: 20px;
+    height: 55px;
+    width: 125px;
+    font-size: 1.2rem;
+    background: rgb(0, 108, 219);
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 0.055em;
+    transition: all 0.5s ease;
+}
+
+.ModeForm__btn:hover {
+    filter: brightness(110%);
+}
+
+.ModeForm__btn:active{
+    filter: brightness(130%);
+}
+
+.ModeForm__btn:disabled{
+    background: #808080;
+    cursor: not-allowed;
+}

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import TableWrapper from "./containers/TableWrapper/TableWrapper";
+
+import classes from './App.module.css';
+import HoverList from "./containers/HoverList/HoverList";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [field, setField]= useState([])
+    const hoverListHandler = value => {
+        setField(value)
+    }
+
+    return (
+        <div className={classes.App}>
+            <div className={classes.App__container}>
+                <TableWrapper onHoverList={hoverListHandler}/>
+                <HoverList field={field}/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
